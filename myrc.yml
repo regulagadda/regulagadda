@@ -5,6 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
+  version: 2.6.1
     app: mynginx
   template:
     metadata:

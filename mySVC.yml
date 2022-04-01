@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: mynginx-svc
   labels:
+  version: 2.6.1
       app: mynginx
 spec:
   type: NodePort
